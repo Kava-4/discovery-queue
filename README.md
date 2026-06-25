@@ -20,7 +20,7 @@ A [Millennium](https://steambrew.app/) plugin that automatically completes your 
 ## Install from source
 
 ```powershell
-git clone https://github.com/AimSyncCore/discovery-queue.git
+git clone https://github.com/Kava-4/discovery-queue.git
 cd discovery-queue
 npm install
 npm run package
