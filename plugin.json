@@ -1,0 +1,9 @@
+{
+	"$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
+	"name": "discovery_queue",
+	"common_name": "Discovery Queue Auto",
+	"description": "Automatically complete your Steam discovery queue and claim sale stickers and trading cards.",
+	"version": "1.0.0",
+	"useBackend": false,
+	"webkitApiVersion": "2.0.0"
+}

@@ -1,0 +1,22 @@
+{
+	"name": "discovery-queue",
+	"version": "1.0.0",
+	"description": "Millennium plugin to auto-complete Steam discovery queue and claim rewards",
+	"type": "module",
+	"main": "./frontend/index.tsx",
+	"author": "",
+	"license": "MIT",
+	"scripts": {
+		"dev": "millennium-ttc --build dev",
+		"build": "millennium-ttc --build prod",
+		"package": "npm run build && node scripts/package.mjs"
+	},
+	"devDependencies": {
+		"@steambrew/api": "^5.8.4",
+		"@steambrew/client": "^5.8.4",
+		"@steambrew/ttc": "^3.2.6",
+		"@steambrew/webkit": "^5.8.4",
+		"@types/react": "19.1.1",
+		"@types/react-dom": "19.1.1"
+	}
+}
